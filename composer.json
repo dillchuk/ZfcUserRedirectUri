@@ -1,5 +1,5 @@
 {
-    "name": "illchuk/ZfcUserRedirectUri",
+    "name": "illchuk/zfc-user-redirect-uri",
     "description": "ZfcUser redirection to specific URI, rather than to a generic route",
     "type": "library",
     "license": "MIT",
