@@ -9,7 +9,9 @@ return [
 
 If you're using ZfcUser's `/user/login?redirect=ROUTE` feature, you may now redirect to any routable URI instead: `ROUTE` can become for example `/ROUTABLE/URI/3?message=OK`.
 
-This is especially useful when using ZfcRbac and user is hit with the login screen; they log in then carry on to the specific URI.  ZfcRbac config as follows:
+This is especially useful when using ZfcRbac and user is hit with the login screen; they log in then carry on right where they left off.
+
+ZfcRbac config as follows:
 ~~~
 'redirect_strategy' => [
 	'redirect_when_connected' => true,
