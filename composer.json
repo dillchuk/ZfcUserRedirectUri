@@ -20,6 +20,9 @@
         "php": "^5.4|^7.0",
         "zf-commons/zfc-user": "^1.2 || ^2.0 || ^3.0"
     },
+    "require-dev": {
+        "illchuk/phpunit-class-aliases": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "ZfcUserRedirectUri\\": "src/"
