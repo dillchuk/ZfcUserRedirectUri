@@ -107,10 +107,8 @@ class RedirectUriCallback {
     protected function getRedirect($currentRoute, $redirect = null) {
         $redirect = $this->getSafeRedirect($redirect);
         if (!$this->options->getUseRedirectParameterIfPresent()) {
-            // @codeCoverageIgnoreStart
             $redirect = false;
         }
-        // @codeCoverageIgnoreEnd
 
         if ($redirect) {
             return $redirect;
