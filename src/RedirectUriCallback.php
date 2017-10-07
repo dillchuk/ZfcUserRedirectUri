@@ -92,8 +92,8 @@ class RedirectUriCallback {
         catch (\Exception $e) {
 
         }
-        return null;
         // @codeCoverageIgnoreEnd
+        return null;
     }
 
     /**
