@@ -21,7 +21,7 @@
         "zf-commons/zfc-user": "^1.2 || ^2.0 || ^3.0"
     },
     "require-dev": {
-        "illchuk/phpunit-class-aliases": "dev-master"
+        "phpunit/phpunit": "~4.0"
     },
     "autoload": {
         "psr-4": {
