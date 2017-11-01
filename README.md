@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.org/dillchuk/ZfcUserRedirectUri.svg?branch=master)](https://travis-ci.org/dillchuk/ZfcUserRedirectUri)
 
-Install in `modules.config.php`:
+Install with `composer require illchuk/zfc-user-redirect-uri`.
+
+Then reference in `modules.config.php`:
 ~~~
 return [
     ..., 'ZfcUser', 'ZfcUserRedirectUri', ...
